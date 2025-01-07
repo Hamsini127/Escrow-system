@@ -1,10 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import {
-  getAuth,
-  createUserWithEmailAndPassword,
-  updateProfile,
-  onAuthStateChanged
-} from 'firebase/auth'
+import { getAuth, createUserWithEmailAndPassword, updateProfile, onAuthStateChanged } from 'firebase/auth'
 
 
 const firebaseConfig = {
