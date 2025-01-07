@@ -61,7 +61,7 @@ function complete() {
 })
 
 
-// description show
+
 
 const description= document.querySelector(".description")
 
