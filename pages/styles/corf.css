@@ -1,0 +1,79 @@
+body {
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+
+.head {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(16, 16, 132);
+    margin-bottom: 10px;
+}
+
+
+
+.c,.f {
+    background-color: rgb(16, 16, 132);
+    color: white;
+    margin-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    font-family: Arial;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+.c:hover,.f:hover {
+    opacity: 0.8;
+}
+
+.c:active,.f:hover {
+    opacity: 0.6;
+}
+
+.box {
+    margin: 90px 100px 100px 90px;
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.signup {
+    display: inline-block;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.picdiv {
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+}
+
+.pic {
+    height:550px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 20px;
+}
+

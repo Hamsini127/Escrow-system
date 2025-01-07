@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post A Job</title>
+
+  <link rel="stylesheet" href="styles/postjob.css">
+</head>
+<body>
+  <div class="header">
+    <div class="leftu">
+      <a href="homepage.html"><p>fusion</p></a> 
+    </div>
+    <div class="right">
+      <a href="job-listings.html"><p>Find Jobs</p></a> 
+      <a href="postjob.html"> <p>Post a Job</p></a>
+      <a href="signup.html"><p>Sign Up</p></a> 
+      <a href="login.html"><p>Login</p></a> 
+      <a href="profile.html"><p>Profile</p></a>
+      <p class="logout">Log Out</p>
+
+    </div>
+  </div>
+  <div class="head">
+    <h1>Post a <span>Job </span>. Find the Best <span>Talent</span></h1>
+    <p>Fill all the job information</p>
+  </div>
+  <div class="middle">
+    <div class ="client">
+      <div>
+        <p class="info">Client Information</p>
+        <p class="sideh" >Full Name</p>
+        <input type="text" id="name" class="input" placeholder="Enter your name">
+      </div>
+      <div class="hdiv">
+        <div class="left">
+          <p class="sideh">Phone Number</p>
+          <input type="tel" id="no" class="hinput" placeholder="Enter phone number">
+        </div>
+        <div>
+          <p class="sideh" >Email Address</p>
+          <input type= "email" id="email" class="hinput" placeholder="Enter email address">
+        </div>
+      </div>
+    </div> 
+    <div class="job">
+      <div>
+        <p class="info">Job Details</p>
+        <p class="sideh">Job Title</p>
+        <input type="text" class="input" id="title" placeholder="Enter Job Title">
+      </div>
+      <div style="width: 1033px;">
+        <p class="sideh">The Job Category</p>
+        <input class="input" id="cat" placeholder="Enter job category">
+      </div>
+      <div style="width: 1033px;">
+        <p class="sideh">The Job Type</p>
+        <input class="input" id="type" placeholder="Enter Job type">
+      </div>
+      <div>
+        <p class="sideh">Skills and Expertise Required for the Job</p>
+        <input id="skills" class="input" placeholder="Enter skills and expertise">
+      </div>
+      <div>
+        <p class="sideh">Job Location</p>
+        <input id="location" class="input" placeholder="Enter job location">
+        <p class="lblank">Leave this blank if the location is not important</p>
+      </div>
+      <div class="hdiv">
+        <div class="left">
+          <p class="sideh">Job Salary</p>
+          <input id="salary" class="hinput" placeholder="Enter job salary">
+        </div>
+        <div>
+          <p class="sideh">Years of Experience Required</p>
+          <input id="experience" class="hinput" placeholder="Enter years of experience">
+        </div>
+      </div> 
+      <div>
+        <p class="sideh">Deadline (days)</p>
+          <input id="deadline" class="input" placeholder="Enter number of days">
+          <p class="lblank">Fill this if there is any deadline</p>
+      </div>
+      <div>
+        <p class="sideh">Job Description</p>
+        <textarea maxlength="5000" id="description" class="jobd" required placeholder="Write your job Description"></textarea>
+      </div>
+      <button class="submit">SUBMIT JOB</button>
+      
+    </div>
+  </div>
+
+  
+
+  
+
+  <script src="postjob-bundle.js">
+  </script>
+</body>
+</html>

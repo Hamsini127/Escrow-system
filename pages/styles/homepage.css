@@ -1,0 +1,255 @@
+body {
+  background-color: rgb(249, 240, 255);
+}
+
+.hero-section {
+  background-color: rgb(18, 16, 16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px 150px 30px;
+  height: 100vh
+
+}
+
+
+
+.quote {
+  font-family: "Chakra Petch";
+
+  color: #3552d4; 
+  background-image: linear-gradient(45deg, #3552d4 27%, #d0535f 64%, #6dc8d3 0%, #c26164 0%, #870bab 1%, #baca68 100%, #f20cf0 72%, #8d8945 28%, #4e3df8 48%, #03edac 87%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+   
+
+  font-size: 80px;
+  width: 1200px;
+  letter-spacing: 5.5px;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.description {
+  color: rgb(230,230,250);
+  font-size: 22px;
+  width: 800px;
+  font-family: "Roboto";
+  margin-top: 26px;
+  line-height: 30px;
+  letter-spacing: 1.1px;
+  word-spacing: 1.2px;
+  text-align: center;
+
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease;
+}
+
+.description.show {
+  opacity: 1;
+  transform: translateY(0);
+
+}
+
+span {
+  opacity: 0;
+  transition: all 0.1s ease;
+  
+}
+
+span.fade {
+  opacity: 1;
+}
+
+.freelancer,.client {
+  padding: 60px 20px 60px 20px;
+  background-color: rgb(234, 166, 234);
+  margin-top: 0;
+  display: flex;
+  height: 500px;
+  opacity:0;
+  visibility:hidden;
+  transform: translateY(50px);
+  transition: all 0.8s;
+  
+
+}
+
+.freelancer.show, .client.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.pic {
+  background-color: rgb(234, 166, 234);
+  flex:1;
+  position: relative;
+  
+
+}
+
+.img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+
+  width: 700px;
+  border-radius: 20px;
+  
+}
+
+
+.side {
+  padding-left: 60px;
+  padding-top:60px;
+  flex:1;
+
+
+}
+
+.side h1, .sidec h1 {
+  font-family: "Roboto";
+  font-size: 43px;
+  color: rgb(16,23,34)
+ 
+}
+
+.details {
+  font-family: "Roboto";
+  font-size: 21px;
+  margin-top: 17px;
+  line-height: 28px;
+  color: rgb(16,23,34);
+  
+  text-align: center;
+  
+}
+
+.imgc {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+
+  width: 700px;
+  border-radius: 20px;
+
+}
+
+
+
+.sidec {
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-left: 60px;
+  flex:1;
+
+}
+
+.pay {
+  background-color: rgb(155, 212, 233);
+ 
+ 
+  align-items: center;
+  padding: 90px 30px 150px 30px;
+  opacity:0;
+  visibility: hidden;
+  transform: translateY(100px);
+  transition: all 0.8s;
+}
+
+.pay.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.pay h1 {
+  font-family: "Roboto";
+  font-size: 50px;
+  letter-spacing: 1.1px;
+  color: rgb(16,23,34);
+}
+
+.payments,.cryptoc p,.fiat p {
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+.cryptoc,.fiat {
+  margin-top: 50px;
+  width:700px;
+  display: inline-block;
+}
+
+.last {
+  background-color: rgb(17, 14, 14);
+  height: 500px;
+  margin-top: 0;
+  padding: 30px 30px 30px 40px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer
+}
+
+.last p {
+  font-family: "Roboto";
+  font-size: 27px;
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  background-color:  rgb(18, 16, 16);
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  height:50px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 26px;
+
+}
+
+.left p {
+  color:white;
+  font-family: "Chakra Petch";
+  font-size: 23px;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 800px;
+}
+
+.right p {
+  color:white;
+  font-family: "Roboto";
+  font-size: 21px;
+  display:inline-block;
+  cursor: pointer;
+  margin-right:20px;
+  transition: text-decoration 0.15s;
+ 
+  
+}
+
+.left p:hover , .right p:hover {
+  text-decoration: underline;
+}
+

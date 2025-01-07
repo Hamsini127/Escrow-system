@@ -1,0 +1,176 @@
+  body {
+    padding-top:50px;
+  }
+  
+  p {
+    font-family: Arial;
+    font-size: 19px;
+    line-height: 40px;
+    color: rgb(51, 50, 50);
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-top: 14px;
+  }
+  
+  .h {
+    font-family: Arial;
+    font-weight:550;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  
+  img {
+    width: 100px;
+    height: 102px;
+    object-fit: cover;
+    margin-top:15px;
+  }
+
+  .profile {
+    width:70%;
+    margin-left: 100px;
+    background-color: rgb(253, 253, 253);
+    padding: 40px 40px 60px 30px;
+
+
+  }
+
+  .pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-family: Arial;
+    letter-spacing: 1.7px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 30px;
+
+  }
+
+  .job {
+    background-color: white;
+    padding: 30px 50px 30px 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    transition: box-shadow 0.15s;
+  
+  }
+  
+  .job:hover {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+  }
+  
+  .job h1 {
+    font-family: "Roboto";
+    font-size: 29px;
+    
+  }
+  
+  .description {
+    margin-top: 25px;
+    margin-bottom: 23px;
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    color: rgb(51, 50, 50);
+  }
+  
+  .category,.type {
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    margin-right: 14px;
+  }
+  
+  .salary {
+    color: rgb(36, 34, 34);
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 25px;
+  }
+  
+  .details {
+    font-family: "Roboto";
+    font-size: 21px;
+    color:  rgb(36, 34, 34);
+    display: inline-block;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-top: 25px;
+    
+  }
+
+
+  .status {
+
+    color: rgb(36, 34, 34);
+    font-size: 23px;
+    display: block;
+    margin-top: 25px;
+
+  }
+
+  .header {
+    background-color:  rgb(18, 16, 16);
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:50px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 26px;
+  
+  }
+  
+  .left p {
+    color:white;
+    font-family: "Chakra Petch";
+    font-size: 23px;
+    cursor: pointer;
+    transition: text-decoration 0.15s;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+  }
+  
+  .right p {
+    color:white;
+    font-family: "Roboto";
+    font-size: 21px;
+    display:inline-block;
+    cursor: pointer;
+    margin-right:20px;
+    transition: text-decoration 0.15s;
+   
+    
+  }
+  
+  .left p:hover , .right p:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  

@@ -1,0 +1,117 @@
+.bigjobdiv {
+   
+  padding: 30px 60px 100px 60px;
+  margin-left: 90px;
+  margin-top: 120px;
+  margin-right: 50px;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 45px;
+  font-weight:bold;
+}
+
+.jobdetails {
+  font-family: Arial;
+  font-size: 21px;
+  line-height: 40px;
+  color: rgb(51, 50, 50);
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin-top: 14px;
+}
+
+.h {
+  font-family: Arial;
+  font-weight:500;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.jobcategory {
+  padding: 15px 50px 15px 50px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: 1.1px;
+  margin-top: 19px;
+  border-radius: 10px;
+}
+
+.apply {
+  padding: 15px 100px 15px 100px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: 1.1px;
+  margin-top: 19px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: opacity 0.15;
+}
+
+.apply:hover {
+  opacity: 0.8;
+}
+
+.apply:active {
+  opacity:0.6;
+}
+
+img {
+  width: 100px;
+  height: 102px;
+  object-fit: cover;
+  margin-top:15px;
+}
+
+.header {
+  background-color:  rgb(18, 16, 16);
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  height:50px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 26px;
+
+}
+
+.left p {
+  color:white;
+  font-family: "Chakra Petch";
+  font-size: 23px;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 800px;
+}
+
+.right p {
+  color:white;
+  font-family: "Roboto";
+  font-size: 21px;
+  display:inline-block;
+  cursor: pointer;
+  margin-right:20px;
+  transition: text-decoration 0.15s;
+ 
+  
+}
+
+.left p:hover , .right p:hover {
+  text-decoration: underline;
+}
+
+

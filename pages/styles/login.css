@@ -1,0 +1,104 @@
+body {
+    background-image: url('bg3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.email,.password {
+    display: block;
+    border: none;
+    margin-top:30px;
+    padding-top: 10px;
+    padding-right: 180px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(246, 245, 245);
+    border-radius: 10px;
+    
+}
+
+.email::placeholder,
+.password::placeholder {
+    font-family: Arial;
+    color:rgb(16, 16, 132);
+}
+
+.head {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(16, 16, 132);
+    margin-bottom: 10px;
+}
+
+.head2 {
+    color: rgb(16, 16, 132);
+    font-size: 20px;
+    margin-top:0px;
+}
+
+.login-button {
+    background-color: rgb(16, 16, 132);
+    color: white;
+    margin-top: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    font-family: Arial;
+    font-size: 15px;
+    border-radius: 6px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+.login-button:active {
+    opacity: 0.6;
+}
+
+.box {
+    margin: 90px 100px 100px 90px;
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.login {
+    display: inline-block;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.picdiv {
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+}
+
+.pic {
+    height:550px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 20px;
+}
+
+.err { 
+    color: rgb(16, 16, 132);
+    font-size: 17px;
+    margin-top: 18px;
+}
+
