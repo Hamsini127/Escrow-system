@@ -33,6 +33,7 @@ onAuthStateChanged(auth,(user) => {
 
     const applicationRef = collection(docRef,"jobsapplied")
     onSnapshot(docRef, (snapshot) => {
+      info.innerHTML=""
 
       console.log(snapshot.data())
       info.innerHTML += `<p class="h">Username</p>
